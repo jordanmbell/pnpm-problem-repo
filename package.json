@@ -1,0 +1,23 @@
+{
+  "name": "pnpm-problem-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordanmbell/pnpm-problem-repo.git"
+  },
+  "author": "Jordan Bell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordanmbell/pnpm-problem-repo/issues"
+  },
+  "homepage": "https://github.com/jordanmbell/pnpm-problem-repo#readme",
+  "dependencies": {
+    "testing-foo": "1.0.0",
+    "monaco-editor": "0.23.0"
+  }
+}

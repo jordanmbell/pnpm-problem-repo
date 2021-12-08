@@ -1,0 +1,14 @@
+{
+  "name": "testing-foo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jordan Bell",
+  "license": "ISC",
+  "dependencies": {
+    "react-monaco-editor": "0.14.0"
+  }
+}
