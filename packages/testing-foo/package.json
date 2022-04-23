@@ -9,6 +9,6 @@
   "author": "Jordan Bell",
   "license": "ISC",
   "dependencies": {
-    "react-monaco-editor": "0.14.0"
+    "react-monaco-editor": "0.40.0"
   }
 }

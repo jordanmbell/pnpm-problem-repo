@@ -12,9 +12,9 @@ importers:
 
   packages/testing-foo:
     specifiers:
-      react-monaco-editor: 0.14.0
+      react-monaco-editor: 0.40.0
     dependencies:
-      react-monaco-editor: 0.14.0
+      react-monaco-editor: 0.40.0
 
 packages:
 
@@ -29,12 +29,12 @@ packages:
       js-tokens: 4.0.0
     dev: false
 
-  /monaco-editor/0.10.1:
-    resolution: {integrity: sha1-jJbE8VtrUli/ksvek8rYp+MAfhQ=}
-    dev: false
-
   /monaco-editor/0.23.0:
     resolution: {integrity: sha512-q+CP5zMR/aFiMTE9QlIavGyGicKnG2v/H8qVvybLzeFsARM8f6G9fL0sMST2tyVYCwDKkGamZUI6647A0jR/Lg==}
+    dev: false
+
+  /monaco-editor/0.33.0:
+    resolution: {integrity: sha512-VcRWPSLIUEgQJQIE0pVT8FcGBIgFoxz7jtqctE+IiCxWugD0DwgyQBcZBhdSrdMC84eumoqMZsGl2GTreOzwqw==}
     dev: false
 
   /object-assign/4.1.1:
@@ -42,8 +42,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /prop-types/15.7.2:
-    resolution: {integrity: sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==}
+  /prop-types/15.8.1:
+    resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}
     dependencies:
       loose-envify: 1.4.0
       object-assign: 4.1.1
@@ -54,11 +54,12 @@ packages:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: false
 
-  /react-monaco-editor/0.14.0:
-    resolution: {integrity: sha512-EiOYv7ZFe6SKDVkade8BQt/LA6EZbs7rVM30XamjPbmBGYIL9e+iQh1ROVSa/7B5FBXjeGgP3u8YALqanYLC1w==}
+  /react-monaco-editor/0.40.0:
+    resolution: {integrity: sha512-IG322vOwKc/yjhn91xbqHONyAVxjv5L0YOUBU+hDwfswlglm/sGsqGhK9n1lD5d3l3kegMO/ZeZaMHC2LGgNRw==}
     peerDependencies:
-      react: ^15.x || ^16.x
+      '@types/react': ^16.x
+      react: ^16.x
     dependencies:
-      monaco-editor: 0.10.1
-      prop-types: 15.7.2
+      monaco-editor: 0.33.0
+      prop-types: 15.8.1
     dev: false
